@@ -1,0 +1,306 @@
+.hero-image{
+    position: relative;
+    overflow: hidden;
+    background-image: url("images/leon-schluss-Iqg1uhxeiTI-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    opacity: .90;
+  }
+.display_4 {
+  position: relative;
+  margin-top: 25%;
+  font-family: 'Arizonia';
+  font-size: 550%;
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.hero-image p{
+  color: #EEEEEE;
+  margin-left: 50%;
+  margin-top: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 130%;
+}
+
+@media only screen and (max-width:768px) {
+  .display_4{
+    
+    margin-top: 50%;
+  }
+  .hero-image p{
+    color: #EEEEEE;
+    margin-left: 50%;
+    margin-top: 20px;
+  }
+  
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+      background:#222222!important;
+  }
+}
+
+.navbar{background-color:rgba(0,0,0,.1)}.top-nav-collapse{background-color:#222222}@media only screen and (max-width:768px){.navbar{background-color:#222222}}
+.navbar {
+  color: #EEEEEE;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.about_me > .jumbotron-fluid{
+  background-color:#222222;
+  height: 40%;
+  margin-bottom: 0px;
+}
+
+.about_me > .jumbotron h1{
+  font-family: 'Arizonia';
+  color: #EEEEEE;
+  font-size: 60px;
+}
+
+.about_me > .jumbotron p{
+  color: #EEEEEE;
+  margin-top: 20px;
+}
+
+.about_me img{
+
+  height: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.about_me p{
+  font-family: 'Rubik', sans-serif;
+} 
+
+.skills > .jumbotron-fluid{
+  background-color:#EEEEEE ;
+  height: 590px;
+  margin-bottom: 0px;
+}
+
+.skills h1{
+  font-family: 'Arizonia';
+  color: #222222;
+  font-size: 60px;
+}
+
+
+.skills  > .jumbotron li{
+  margin: 50px 0;
+}
+
+.skillcontainer{
+  width: 70vw;
+  margin: 15px auto;
+  color: #222222;
+}
+
+.skillcontainer h4 {
+  color: #444444;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+.bar{
+  height: 3px;
+  width: 100%;
+  border-left: 2px solid #222222;
+  border-right: 2px solid #222222;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: block;
+  padding: 2px;
+}
+.fill {
+  height: 1px;
+  background-color: #222222;
+  border-radius: 5px;
+  display: block;
+  box-shadow: 0 0 5px #222222;
+}
+
+
+#html{
+  width: 60%;
+  animation: html 2s;
+}
+#css{
+  width: 50%;
+  animation: css 2s;
+}
+#python{
+  width: 90%;
+  animation: python 2s;
+}
+#mal{
+  width: 40%;
+  animation: mal 2s;
+}
+#data-an{
+  width: 50%;
+  animation: data-an 2s;
+}
+@keyframes css {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%
+  }
+}
+
+@keyframes python {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%
+  }
+}
+@keyframes html {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%
+  }
+}
+@keyframes mal {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%
+  }
+}
+@keyframes data-an {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%
+  }
+}
+.portfolio-image{
+  position: relative;
+  overflow: hidden;
+  background-image: url("images/Untitled\ design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  padding: 0px;
+}
+
+.portfolio-image h1{
+  font-family: 'Arizonia';
+  color: #222222;
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.row {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card {
+  background-color: #222222;
+}
+
+.card p{
+  font-family: 'Rubik', sans-serif;
+  color: #EEEEEE;
+
+}
+
+.card a:hover{
+  color:#222222 ;
+  background-color: #EEEEEE;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.card a{
+  font-family: 'Rubik', sans-serif;
+  color: #EEEEEE;
+  background-color: transparent;
+  text-decoration: none;
+  opacity: .8;
+}
+
+
+.contact > .jumbotron-fluid{
+  background-color:#222222;
+  height: 300px;
+  margin-bottom: 0px;
+}
+
+.contact h1{
+  font-family: 'Arizonia';
+  color: #EEEEEE ;
+  font-size: 60px;
+}
+
+.middle{
+  position: relative;
+  top: 50%;
+  margin-right: 30px;
+  width: 100%;
+  text-align: center;
+}
+.btn{
+  display: inline-block;
+  width:40px;
+  height: 40px;
+  background: 222222;
+  margin: 10px;
+  border-radius: 40%;
+  color: #EEEEEE;
+  overflow: hidden;
+  position: relative;
+}
+.btn i{
+  line-height: 25px;
+  font-size: 20px;
+  transition: 0.2s linear;
+}
+.btn:hover i{
+  transform: scale(1.3);
+  color: #222222;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #EEEEEE;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+
