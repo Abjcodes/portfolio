@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .hero-image{
     position: relative;
     overflow: hidden;
@@ -45,9 +49,6 @@
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 .navbar{background-color:rgba(0,0,0,.1)}.top-nav-collapse{background-color:#222222}@media only screen and (max-width:768px){.navbar{background-color:#222222}}
 .navbar {
